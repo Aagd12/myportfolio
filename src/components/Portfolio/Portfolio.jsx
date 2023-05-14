@@ -2,10 +2,11 @@ import React from 'react'
 import './Portfolio.css'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-import Ecommerce from "../../img/ecommerce.png"
+import happy from "../../img/happy.png"
 import Bird from "../../img/bird.png"
 import Insta from "../../img/insta.png"
-import Music from "../../img/music.png"
+import pendmic from "../../img/pendmic.jpg"
+import Bus from "../../img/Bus.png"
 import 'swiper/css'
 function Portfolio() {
     return (
@@ -27,7 +28,7 @@ function Portfolio() {
                 </SwiperSlide>
                 <SwiperSlide>
                     <a href="https://boring-hoover-0b2941.netlify.app/" target="_blank" rel="noopener noreferrer">
-                          <img src={Ecommerce} alt="" />
+                          <img src={happy} alt="" />
                     </a>
                   
                 </SwiperSlide>
@@ -38,41 +39,18 @@ function Portfolio() {
                     
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href="https://serene-nightingale-361fe5.netlify.app/" target="_blank" rel="noopener noreferrer">
-                        <img src={Music} alt="" />
+                    <a href="https://github.com/Aagd12/Pendmic-management-System" target="_blank" rel="noopener noreferrer">
+                        <img src={pendmic} alt="" />
                     </a>
 
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href="https://serene-nightingale-361fe5.netlify.app/" target="_blank" rel="noopener noreferrer">
-                        <img src={Music} alt="" />
+                    <a href="https://github.com/Aagd12/DBMS/" target="_blank" rel="noopener noreferrer">
+                        <img src={Bus} alt="" />
                     </a>
 
                 </SwiperSlide>
-                <SwiperSlide>
-                    <a href="https://serene-nightingale-361fe5.netlify.app/" target="_blank" rel="noopener noreferrer">
-                        <img src={Music} alt="" />
-                    </a>
-
-                </SwiperSlide>
-                <SwiperSlide>
-                    <a href="https://serene-nightingale-361fe5.netlify.app/" target="_blank" rel="noopener noreferrer">
-                        <img src={Music} alt="" />
-                    </a>
-
-                </SwiperSlide>
-                <SwiperSlide>
-                    <a href="https://serene-nightingale-361fe5.netlify.app/" target="_blank" rel="noopener noreferrer">
-                        <img src={Music} alt="" />
-                    </a>
-
-                </SwiperSlide>
-                <SwiperSlide>
-                    <a href="https://serene-nightingale-361fe5.netlify.app/" target="_blank" rel="noopener noreferrer">
-                        <img src={Music} alt="" />
-                    </a>
-
-                </SwiperSlide>
+     
             </Swiper>
         </div>
     )
